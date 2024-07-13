@@ -1,0 +1,103 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.category-form-body {
+
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Align content to the top */
+    align-items: center;
+    height: 100vh;
+    /* Use min-height instead of height */
+}
+
+.category-parent-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.category-primary-font {
+    font-family: 'Single Day', cursive;
+    font-weight: 400;
+    size: 67px;
+    /* line-height: 93.59px; */
+    color: #72DB73;
+    text-align: left;
+    font-size: 3rem;
+}
+
+.category-secondary-font {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    size: 68px;
+    line-height: 94.99px;
+    color: #FFFFFF;
+    font-size: 4rem;
+    text-align: left;
+}
+
+.category-box {
+    width: 780px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}
+
+.card-box {
+    width: calc(33.3333% - 20px);
+    margin: 10px;
+    /* height: 200px; */
+    cursor: pointer;
+}
+
+.category-child-div {
+    padding-top: 6rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.title-font {
+    font-family: 'DM Sans', sans-serif;
+    /* font-weight: 700; */
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.button-div {
+    display: flex;
+    justify-content: flex-end;
+    /* Align the button to the right */
+    width: 100%;
+    /* Occupy the entire width of the parent */
+}
+
+/* 
+.next-button{
+    align-items: end;
+} */
+
+.card-box .borderGreen {
+    border: 2px solid green;
+
+}
+
+.button-div .next-button {
+    align-items: end;
+    width: 150px;
+    height: 50px;
+    border-radius: 28px;
+    background-color: #148A08;
+    color: #fff;
+    /* Set the text color to white */
+    border: none;
+    /* Remove the button border */
+    font-size: 20px;
+}

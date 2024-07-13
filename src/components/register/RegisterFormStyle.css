@@ -1,0 +1,108 @@
+.register-form-body {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Ensure full viewport height */
+}
+
+.main-parent-div {
+    width: 50rem;
+}
+
+.primary-font {
+    font-family: 'Single Day', cursive;
+    font-weight: 400;
+    size: 67px;
+    /* line-height: 93.59px; */
+    color: #72DB73;
+}
+
+.secondary-font-three {
+    font-family: 'Roboto', sans-serif;
+    color: #72DB73;
+}
+
+.secondary-font {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    size: 25px;
+    line-height: 34.92px;
+    color: #FFFFFF;
+}
+
+.secondary-font-two {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    size: 20.03px;
+    line-height: 27.98px;
+    color: #e8e8e8;
+    text-align: left;
+}
+
+.main-parent-div .input-style .form-control {
+    width: 518px;
+    box-sizing: border-box;
+    background-color: #292929;
+    color: #fff;
+    /* Set text color to white */
+    border: none;
+}
+
+/* Add focus styles to the input fields */
+.main-parent-div .input-style .form-control:focus {
+    background-color: #292929;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+.main-parent-div .input-style .form-control::placeholder {
+    color: #7e7e7e;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* Over Riding the Bootstrap properties by increase the specificity of your custom CSS */
+.main-parent-div .button-style {
+    width: 518px;
+    height: 55px;
+    border-radius: 28px;
+    background-color: #90db72;
+    color: #fff;
+    /* Set the text color to white */
+    border: none;
+    /* Remove the button border */
+    font-size: 20px;
+}
+
+/* Add hover and active styles */
+.main-parent-div .button-style:hover {
+    background-color: #da1b17;
+    /* Change the background color on hover */
+}
+
+.main-parent-div .button-style:active {
+    background-color: #4A9C4A;
+    /* Change the background color on button click */
+}
+
+
+.form-position {
+    display: flex;
+    justify-content: center;
+}
+
+.padding-one {
+    padding-left: 9rem;
+    padding-right: 7rem;
+}
+
+.error-border {
+    border: 1px solid red;
+    /* Red border for the input field */
+    border-radius: 7px;
+}

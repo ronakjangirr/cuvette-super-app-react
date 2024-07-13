@@ -1,0 +1,19 @@
+.logo-style{
+    font-family: 'Single Day', cursive;
+    font-weight: 400;
+    /* size: 40px; */
+    /* line-height: 93.59px; */
+    color: #72DB73;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.heading-h3{
+    margin: 0px 0px 0px 5rem;
+    color: whitesmoke;
+}
+
+.heading-h2{
+    margin: 0px 0px 0px 5rem;
+    color: rgb(100, 100, 100);
+}

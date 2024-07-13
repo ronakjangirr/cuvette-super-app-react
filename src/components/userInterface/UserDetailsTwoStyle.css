@@ -1,0 +1,254 @@
+.one-div {
+    max-height: 210px;
+    max-width: 410px;
+    background-color: #5746EA;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.parent-one {
+    margin-top: 2rem;
+}
+
+.one-div img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.two-div {
+    margin-top: 0.5rem;
+    height: 170px;
+    width: 410px;
+    background-color: #101744;
+    border-radius: 2rem;
+
+}
+
+.main-div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: black;
+    min-height: 100vh;
+}
+
+.parent-two {
+    height: 645px;
+    width: 370px;
+    border: 1px solid;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    overflow: hidden; /* Ensure that any overflowing content is hidden */
+}
+
+.one-div h6 {
+    font-size: 18px;
+    color: white;
+    text-align: start;
+    margin: 5px 0;
+    font-family: sans-serif;
+}
+
+.one-div h5 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+    text-align: start;
+    margin: 5px 0;
+    font-family: sans-serif;
+}
+
+.child-two {
+    margin-top: 0.8rem;
+    padding-left: 10px;
+    width: 270px;
+}
+
+.two-div-child-one {
+    background-color: #FF4ADE;
+    padding: 0px;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.two-div-child-two {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.parent-two-img {
+    max-width: 100%;
+    max-height: 60%;
+    overflow-x: auto;
+}
+
+.parent-two-p {
+    background-color: white;
+}
+
+.font-white-one {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.font-white {
+    font-size: 1.7rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.font-white-two {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    margin-top: 0.8rem;
+}
+
+.font-white-three {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+}
+
+.font-white-four {
+    margin-top: 0.8rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.font-white-five {
+    margin-top: 0.8rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.chip-div {
+    width: 260px;
+    max-height: 80px; /* Set the maximum height */
+    overflow-y: hidden; 
+}
+
+.scrollable-content {
+    max-height: auto;
+   
+    overflow-y: auto;
+    background-color: white;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.scrollable-content::-webkit-scrollbar {
+    width: 0;
+}
+
+.scrollable-content {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.note-style{
+    width: 400px;
+    background-color: #F1C75B;
+    height: 388px;
+    border-radius: 20px;
+}
+
+.note-div{
+    margin-left: 2rem;
+}
+
+.note-heading{
+    float: left;
+    margin-left: 20px;
+}
+
+.text-area-no-border{
+    width: 20rem;
+    background-color: #F1C75B;
+    border: 1px solid #F1C75B;
+    height:18rem;
+}
+
+.text-area-no-border:focus {
+    border-color: transparent; 
+    box-shadow: none; 
+}
+
+.count-down-div{
+    height: 15rem;
+    border-radius: 2rem;
+    background-color: #1E2343;
+}
+
+.btn-div.next-button {
+    align-items: end;
+    width: 150px;
+    height: 50px;
+    border-radius: 28px;
+    background-color: #148A08;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+}
+
+.timer-text{
+    color: #FFFFFF;
+}
+
+.col4-margin{
+    margin: 17px;
+}
+
+.form-label-style{
+    color: rgb(201, 201, 201);
+}
+
+.set-timer-style{
+    color: #FFFFFF;
+    font-size: 2.5rem;
+}
+
+.outer-div{
+    padding: 13px;
+    border-radius: 7rem;
+    border: none;
+    background-color: #16142dc4;
+}
+
+.count-down-button{
+    background-color: #FF6A6A;
+    color: white;
+}
+
+.img-weather{
+    position: relative;
+    overflow: hidden;
+    height: 365px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 25rem;
+    height: 10rem;
+}
+

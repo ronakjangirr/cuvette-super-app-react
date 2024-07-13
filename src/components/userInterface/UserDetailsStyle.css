@@ -1,0 +1,187 @@
+.alpha-one-div {
+    height: 400px;
+    width: 800px;
+    /* border: 1px solid; */
+    background-color: #5746EA;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.alpha-parent-one {
+    margin-top: 2rem;
+}
+
+.alpha-one-div img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.alpha-two-div {
+    margin-top: 2rem;
+    height: 250px;
+    width: 800px;
+    background-color: #101744;
+    border-radius: 2rem;
+
+}
+
+.alpha-main-div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* Allow elements to wrap to the next line if necessary */
+    background-color: black;
+    min-height: 100vh;
+}
+
+.alpha-parent-two {
+    height: 85vh;
+    width: 370px;
+    border: 1px solid;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    overflow: hidden; /* Ensure that any overflowing content is hidden */
+}
+
+.alpha-one-div h3 {
+    font-size: 22px;
+    /* Adjust font size as needed */
+    color: white;
+    /* Set text color */
+    text-align: start;
+    /* Center text horizontally */
+    margin: 10px 0;
+    /* Add margin for spacing */
+    font-family: sans-serif;
+}
+
+.alpha-one-div h5 {
+    font-size: 2.5rem;
+    /* Adjust font size as needed */
+    color: white;
+    /* Set text color */
+    text-align: start;
+    /* Center text horizontally */
+    margin: 10px 0;
+    /* Add margin for spacing */
+    font-family: sans-serif;
+}
+
+.alpha-child-two {
+    width: 25rem;
+    margin-top: 2rem;
+}
+
+.alpha-two-div-child-one {
+    background-color: #FF4ADE;
+    /* Apply background color to the container div */
+    padding: 10px;
+    border-top-left-radius: 2rem;
+    /* Adjust the value for the upper-left corner */
+    border-top-right-radius: 2rem;
+    /* Adjust the value for the upper-right corner */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.alpha-two-div-child-two {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.alpha-parent-two-img {
+    max-width: 100%;
+    max-height: 60%;
+    /* max-height: auto; */
+    /* Adjust the maximum height as needed */
+    overflow-x: auto;
+}
+
+.alpha-parent-two-p {
+    background-color: white;
+}
+
+.alpha-font-white-one {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+.alpha-font-white {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.alpha-font-white-two {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.2rem;
+    margin-top: 1rem;
+}
+
+.alpha-font-white-three {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.alpha-font-white-four {
+    margin-top: 2rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.alpha-font-white-five {
+    margin-top: 2rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.alpha-chip-div {
+    padding: 0.5rem;
+    margin-top: 2rem;
+}
+
+ /* Adjust the maximum height as needed */
+ .alpha-scrollable-content {
+    max-height: 100%;
+    overflow-y: auto;
+    background-color: white;
+
+}
+
+.alpha-scrollable-content::-webkit-scrollbar {
+    width: 0;
+}
+
+.img-weather{
+    position: relative;
+    overflow: hidden;
+    height: 365px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 25rem;
+    height: 10rem;
+}
+
+.alpha-scrollable-content {
+    flex: 1;
+    overflow-y: auto;
+}
